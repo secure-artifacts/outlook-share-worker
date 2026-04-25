@@ -1,0 +1,11 @@
+name = "outlook-account-share"   # 改成你想要的 Worker 名称（全局唯一）
+main = "index.js"                # 如果你的代码文件是 index.js
+compatibility_date = "2026-04-01"  # 用当前日期或最新
+
+# KV 绑定（非常重要！）
+[[kv_namespaces]]
+binding = "SHARE_KV"             # 代码里使用的名称，必须一致
+id = "SHARE_KV"     # 后面创建后填入
+
+# 可选：生产环境路由（后面再加）
+# routes = [{ pattern = "share.你的域名.com/*", custom_domain = true }]
