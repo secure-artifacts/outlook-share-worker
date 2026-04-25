@@ -28,3 +28,4 @@ wrangler dev src/index.js
 
 本项目按“源码审核（source_only）”流程提交：只进行代码扫描与密钥扫描，不生成构建产物与 Attestation，也不需要 GitHub Actions release workflow。
 
+<img width="679" height="685" alt="屏幕截图 2026-04-26 085528" src="https://github.com/user-attachments/assets/ce66ecbc-8014-424e-88ef-4842b96a00cc" />
